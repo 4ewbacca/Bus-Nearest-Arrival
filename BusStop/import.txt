@@ -1,0 +1,13 @@
+CREATE TABLE busstops (stop_id INT,
+stop_code VARCHAR(9),
+stop_name VARCHAR(30),
+stop_lat INT,
+stop_lon INT,
+zone_id INT,
+alias VARCHAR(30),
+stop_area VARCHAR(30),
+stop_desc VARCHAR(40),
+lest_x INT,
+lest_y INT,
+zone_name VARCHAR(30),
+authority VARCHAR(30))
